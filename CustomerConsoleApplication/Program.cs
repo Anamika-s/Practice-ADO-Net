@@ -26,9 +26,9 @@ namespace CustomerConsoleApplication
             customerList = customerOperations.GetCustomers();
             if (customerList != null)
             {
-                foreach (Cts.Ado.Demo.Customer customer in customerList)
+                foreach (Cts.Ado.Demo.Customer temp in customerList)
                 {
-                    Console.WriteLine(customer.Id + "\t" + customer.Name);
+                    Console.WriteLine(temp.Id + "\t" + temp.Name);
                 }
             }
             else
@@ -73,6 +73,21 @@ namespace CustomerConsoleApplication
             bool isDeleted = customerOperations.DeleteCustomer(id);
             if (isDeleted == true) Console.WriteLine("Record deleted");
             else Console.WriteLine("Record Not deleted");
+
+            // Find Customer By Id
+
+            Console.WriteLine("Enter ID whode Record to find");
+            id = int.Parse(Console.ReadLine());
+
+            Cts.Ado.Demo.Customer customer = customerOperations.FindCustomerById(id);
+            if(customer!=null)
+            {
+                Console.WriteLine("Record Found");
+                Console.WriteLine(customer.Id + "\t" + customer.Name + "\t" + customer.Address+ "\t" + customer.Qty);
+            }
+            else
+                Console.WriteLine("Customer with {0} id does not exist" , id);
+
 
         }
     }

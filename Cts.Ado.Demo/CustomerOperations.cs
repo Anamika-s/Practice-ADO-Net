@@ -130,7 +130,7 @@ namespace Cts.Ado.Demo
             }
         }
 
-        public Customer FindCustomer(int id)
+        public Customer FindCustomerById(int id)
         {
             Customer customer = null;
             using (sqlConnection = GetConnection())

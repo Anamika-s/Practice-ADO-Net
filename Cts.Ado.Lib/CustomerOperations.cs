@@ -86,7 +86,7 @@ namespace Cts.Ado.Lib
         }
 
 
-        public Customer FindCustomer(int id)
+        public Customer FindCustomerById(int id)
         {
 
             Customer customer = null;
