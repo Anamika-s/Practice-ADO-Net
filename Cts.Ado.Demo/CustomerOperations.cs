@@ -129,5 +129,32 @@ namespace Cts.Ado.Demo
 
             }
         }
+
+        public Customer FindCustomer(int id)
+        {
+            Customer customer = null;
+            using (sqlConnection = GetConnection())
+            {
+                using (sqlCommand = new SqlCommand("Select * from customers where id=@id", sqlConnection))
+                {
+                    sqlCommand.Parameters.AddWithValue("@id", id);
+
+                    sqlConnection.Open();
+                    SqlDataReader reader = sqlCommand.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        customer = new Customer();
+                        customer.Id = (int)reader["id"];
+                        customer.Name = reader["name"].ToString();
+                        customer.Address = reader["address"].ToString();
+                        customer.Qty = (int)reader["qty"];
+                    }
+                    sqlConnection.Close();
+                }
+            }
+                    return customer;
+                }
+
+            }
     }
-}
+

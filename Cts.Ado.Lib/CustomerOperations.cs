@@ -49,5 +49,58 @@ namespace Cts.Ado.Lib
             
         }
 
+
+
+        public bool UpdateCustomer(int id, string address, int qty)
+        {
+            bool isUpdated = false;
+            foreach(Customer temp in customerList)
+            {
+                if(temp.Id== id)
+                {
+                    temp.Address = address;
+                    temp.Qty = qty;
+                    isUpdated = true;
+                    break;
+                }
+               
+            }
+            return isUpdated;
+        }
+
+        public bool DeleteCustomer(int id)
+        {
+
+            bool isDeleted = false;
+            foreach (Customer temp in customerList)
+            {
+                if (temp.Id == id)
+                {
+                    customerList.Remove(temp);
+                    isDeleted = true;
+                    break;
+                }
+                
+            }
+            return isDeleted;
+        }
+
+
+        public Customer FindCustomer(int id)
+        {
+
+            Customer customer = null;
+            foreach (Customer temp in customerList)
+            {
+                if (temp.Id == id)
+                {
+                    customer = new Customer();
+                    customer = temp;
+                    break;
+
+                }
+            }
+            return customer;
+        }
     }
 }
