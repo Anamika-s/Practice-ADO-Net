@@ -1,0 +1,13 @@
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\obj\Debug\CustomerConsoleApplication.csprojAssemblyReference.cache
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\obj\Debug\CustomerConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\bin\Debug\CustomerConsoleApplication.exe.config
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\bin\Debug\CustomerConsoleApplication.exe
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\bin\Debug\CustomerConsoleApplication.pdb
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\bin\Debug\Cts.Ado.Lib.dll
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\bin\Debug\Cts.Ado.Lib.pdb
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\obj\Debug\CustomerConsoleApplication.csproj.CopyComplete
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\obj\Debug\CustomerConsoleApplication.exe
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\obj\Debug\CustomerConsoleApplication.pdb
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\bin\Debug\Cts.Ado.Demo.dll
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\bin\Debug\Cts.Ado.Demo.pdb
+C:\Users\Anamika\source\repos\PracticeADO\CustomerConsoleApplication\bin\Debug\Cts.Ado.Demo.dll.config

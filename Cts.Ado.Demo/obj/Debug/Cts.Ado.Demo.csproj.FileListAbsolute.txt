@@ -1,0 +1,7 @@
+C:\Users\Anamika\source\repos\PracticeADO\Cts.Ado.Demo\bin\Debug\Cts.Ado.Demo.dll.config
+C:\Users\Anamika\source\repos\PracticeADO\Cts.Ado.Demo\bin\Debug\Cts.Ado.Demo.dll
+C:\Users\Anamika\source\repos\PracticeADO\Cts.Ado.Demo\bin\Debug\Cts.Ado.Demo.pdb
+C:\Users\Anamika\source\repos\PracticeADO\Cts.Ado.Demo\obj\Debug\Cts.Ado.Demo.csprojAssemblyReference.cache
+C:\Users\Anamika\source\repos\PracticeADO\Cts.Ado.Demo\obj\Debug\Cts.Ado.Demo.csproj.CoreCompileInputs.cache
+C:\Users\Anamika\source\repos\PracticeADO\Cts.Ado.Demo\obj\Debug\Cts.Ado.Demo.dll
+C:\Users\Anamika\source\repos\PracticeADO\Cts.Ado.Demo\obj\Debug\Cts.Ado.Demo.pdb
